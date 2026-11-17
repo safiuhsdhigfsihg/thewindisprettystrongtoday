@@ -1,13 +1,13 @@
 --[[
   Combined bot script: the original strippedbot + every add-on, in ONE file (no other script is loaded).
   Run it with the short loader:
-      getgenv().CONFIG = { main = "pocitac222222", mains = {"im_notdeko"} }
+      getgenv().CONFIG = { main = "user_1", mains = {"user_2"} }
       loadstring(game:HttpGet("<raw link to THIS file>", true))()
   Optional CONFIG keys:
       bots = { name = "group" }   -- extra/override bot accounts (the built-in list is below)
       afk = false                 -- start with the focus spoof off
       summonRadius = {4, 10}      -- .summon lands this many studs from the player
-      enlightener = "CommanderOfTheNull"   -- the one bot that answers .enlighten
+      enlightener = "bot that gives enlighten when it has it"   -- the one bot that answers .enlighten
       boombox = "boombox"         -- tool name to look for in the bot's hand
 ]]
 
